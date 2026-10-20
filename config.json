@@ -1,0 +1,16 @@
+{
+  "endpoint": "http://127.0.0.1:11434/v1",
+  "model": "qwen2.5-coder:7b",
+  "fallback_model": "qwen2.5-coder:7b",
+  "default_language": "en",
+  "temperature": 0.2,
+  "max_tokens": 4096,
+  "stream": true,
+  "persona": {
+    "role": "Elite Security Researcher, Reverse Engineer, and Hacker",
+    "gender": "Female",
+    "callsign": "Valkyrie",
+    "tone": "Sharp, highly technical, direct, security-focused, zero-fluff"
+  },
+  "output_dir": "./output"
+}
